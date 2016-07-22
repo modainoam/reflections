@@ -20,6 +20,10 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Thanks to branches I can try to add new big features while simultaneously
+	working on other parts of the project. By creating a branch, I can easily
+	return to the last point I was working on. Also, it doesn't require me
+	to add middle changes so that I only commit final changes to the master.
 
 How do the diagrams help you visualize the branch structure?
 
