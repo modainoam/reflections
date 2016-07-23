@@ -26,9 +26,20 @@ organized? How would branches help?
 	to add middle changes so that I only commit final changes to the master.
 
 How do the diagrams help you visualize the branch structure?
+	They allow me to see exactly when I diverged to work on a new feature,
+	and to understand what is missing at that point for it to be updated.
+	They also help me see where I stand on each of my different tasks.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The result is one new branch which includes the changes performed in both 
+	branches. We therefore represent it in the diagram as one branch comprised
+	of all the changes in these two branches.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Pros - It saves a lot of time code reviewing and allows multiple people to 
+	work on the same project at the same time.
+	Cons - There are errors and bugs involved which take time to resolve.
+	Also it makes changing global variables more difficult as different
+	people might rely on a modified piece of code.
