@@ -23,3 +23,11 @@ git checkout -b new_branch_name  |    Creates a new branch and do a checkout on 
 git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
 git branch -d name  |    Remove the branch with the specified name
 git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
+
+Commands Lesson 3
+git remote
+git remote -v
+git remote add "git-url"
+git push origin master
+git pull origin master
+git clone https://github.com/modainoam/recipes.git
